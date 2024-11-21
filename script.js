@@ -1,6 +1,6 @@
 const countdownElement = document.getElementById('countdown');
 const timeElement = document.getElementById('time');
-const url = "https://www.facebook.com";
+const url = "https://melhorenvio.com.br/p/NqJnd8uDqy";
 
 let timeLeft = 3;
 
