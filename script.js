@@ -5,10 +5,10 @@ const url = "https://melhorenvio.com.br/p/NqJnd8uDqy";
 let timeLeft = 3;
 
 function updateCountdown() {
-    if (timeLeft <= 0) {
+    if (timeLeft == 0) {
         window.location.href = url;
     }
-    
+
     timeLeft--;
     timeElement.textContent = timeLeft;
 }
